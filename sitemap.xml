@@ -11,10 +11,6 @@
   </url>
   
   <url>
-    <loc>https://3tty0n.github.io/</loc>
-  </url>
-  
-  <url>
     <loc>https://3tty0n.github.io/post/</loc>
   </url>
   
@@ -24,6 +20,10 @@
   
   <url>
     <loc>https://3tty0n.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://3tty0n.github.io/</loc>
   </url>
   
 </urlset>
