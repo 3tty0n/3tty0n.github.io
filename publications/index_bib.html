@@ -16,7 +16,8 @@
   journal = {Journal of Information Processing},
   year = {2022},
   month = {1},
-  abstract = {Data-structure live programming environments execute a program, collect object graphs (objects and their mutual references) created and modified during the execution, and visualize the graphs as a node-link diagram. Existing implementations collect object graphs by instrumenting checkpoints, which traverse reachable objects, into every necessary points in the program. Since the cost of each checkpoint is proportional to the number of existing objects, its overhead can be huge. This paper proposes (1) a method to collect object graphs by recording object creation and modification events into an efficient data structure, and (2) to implement the object graph collection mechanism by extending a language implemented on top of a language implementation framework.  As a result, the overhead of object graph collection is merely proportional to the number of object creation/modification operations in total. We implemented the proposed mechanism for the Kanon data-structure live programming environment by extending GraalJS, which is a JavaScript implementation on the Graal/Truffle language implementation framework. We compared our new implementation against the original Kanon, which is based on checkpointing, and confirmed that our implementation improves program execution (and data collection) speed, and has sufficiently small overheads to reconstruct object graphs.}
+  abstract = {Data-structure live programming environments execute a program, collect object graphs (objects and their mutual references) created and modified during the execution, and visualize the graphs as a node-link diagram. Existing implementations collect object graphs by instrumenting checkpoints, which traverse reachable objects, into every necessary points in the program. Since the cost of each checkpoint is proportional to the number of existing objects, its overhead can be huge. This paper proposes (1) a method to collect object graphs by recording object creation and modification events into an efficient data structure, and (2) to implement the object graph collection mechanism by extending a language implemented on top of a language implementation framework.  As a result, the overhead of object graph collection is merely proportional to the number of object creation/modification operations in total. We implemented the proposed mechanism for the Kanon data-structure live programming environment by extending GraalJS, which is a JavaScript implementation on the Graal/Truffle language implementation framework. We compared our new implementation against the original Kanon, which is based on checkpointing, and confirmed that our implementation improves program execution (and data collection) speed, and has sufficiently small overheads to reconstruct object graphs.},
+  annote = {refereed}
 }
 </pre>
 
@@ -31,7 +32,8 @@
   numpages = 11,
   archiveprefix = {arXiv},
   eprint = {2106.12496},
-  abstract = {Language implementation frameworks, e.g., RPython and Truffle/Graal, are practical tools for creating efficient virtual machines, including a well-functioning just-in-time (JIT) compiler. It is demanding to support multitier JIT compilation in such a framework for language developers. This paper presents an idea to generate threaded code by reusing an existing meta-tracing JIT compiler, as well as an interpreter design for it. Our approach does not largely modify RPython itself but constructs an effective interpreter definition to enable threaded code generation in RPython. We expect our system to be extended to support multilevel JIT compilation in the RPython framework. We measured the potential performance of our threaded code generation by simulating its behavior in PyPy. We confirmed that our approach reduced code sizes by 80 \% and compilation times by 60 \% compared to PyPy's JIT compiler on average, and ran about 7 \% faster than the interpreter-only execution.}
+  abstract = {Language implementation frameworks, e.g., RPython and Truffle/Graal, are practical tools for creating efficient virtual machines, including a well-functioning just-in-time (JIT) compiler. It is demanding to support multitier JIT compilation in such a framework for language developers. This paper presents an idea to generate threaded code by reusing an existing meta-tracing JIT compiler, as well as an interpreter design for it. Our approach does not largely modify RPython itself but constructs an effective interpreter definition to enable threaded code generation in RPython. We expect our system to be extended to support multilevel JIT compilation in the RPython framework. We measured the potential performance of our threaded code generation by simulating its behavior in PyPy. We confirmed that our approach reduced code sizes by 80 \% and compilation times by 60 \% compared to PyPy's JIT compiler on average, and ran about 7 \% faster than the interpreter-only execution.},
+  annote = {refereed}
 }
 </pre>
 
@@ -49,7 +51,8 @@
   archiveprefix = {arXiv},
   eprint = {2201.09268},
   url = {https://popl22.sigplan.org/details/pepm-2022-papers/3/Two-level-Just-in-Time-Compilation-with-One-Interpreter-and-One-Engine},
-  abstract = {Modern, powerful virtual machines such as those running Java or JavaScript support multi-tier JIT compilation and optimization features to achieve their high performance. However, implementing and maintaining several compilers/optimizers that interact with each other requires hard-working VM developers. In this paper, we propose a technique to realize two-level JIT compilation in RPython without implementing several interpreters or compilers from scratch. As a preliminary realization, we created adaptive RPython, which performs both baseline JIT compilation based on threaded code and tracing JIT compilation. We also implemented a small programming language with it. Furthermore, we preliminarily evaluated the performance of that small language, and our baseline JIT compilation ran 1.77x faster than the interpreter-only execution. Furthermore, we observed that when we apply an optimal JIT compilation for different target methods, the performance was mostly the same as the one optimizing JIT compilation strategy, saving about 40 \% of the compilation code size.}
+  abstract = {Modern, powerful virtual machines such as those running Java or JavaScript support multi-tier JIT compilation and optimization features to achieve their high performance. However, implementing and maintaining several compilers/optimizers that interact with each other requires hard-working VM developers. In this paper, we propose a technique to realize two-level JIT compilation in RPython without implementing several interpreters or compilers from scratch. As a preliminary realization, we created adaptive RPython, which performs both baseline JIT compilation based on threaded code and tracing JIT compilation. We also implemented a small programming language with it. Furthermore, we preliminarily evaluated the performance of that small language, and our baseline JIT compilation ran 1.77x faster than the interpreter-only execution. Furthermore, we observed that when we apply an optimal JIT compilation for different target methods, the performance was mostly the same as the one optimizing JIT compilation strategy, saving about 40 \% of the compilation code size.},
+  annote = {refereed}
 }
 </pre>
 
@@ -70,7 +73,8 @@
   keywords = {JIT compiler, RPython, meta-tracing JIT compiler, language implementation framework},
   location = {Virtual, USA},
   series = {DLS 2020},
-  note = {\textbf{Refereed}. 15 pages}
+  note = {\textbf{Refereed}. 15 pages},
+  annote = {refereed}
 }
 </pre>
 
@@ -86,7 +90,8 @@
   numpages = 5,
   pages = {1-5},
   note = {\textbf{Refereed}. 5 pages},
-  abstract = {While applications of live programming are expanding to more practical and professional domains, most live programming environments (LPEs) are still developed for a single target language with an original code editor.  We propose an implementation framework for developing LPEs so that we can minimize efforts on implementing an LPE for a different target language and an existing code editor/IDE.  Our idea is to use a meta-JIT language implementation framework (e.g., Graal/Truffle and RPython) and LSP to separate core live programming implementations from language-specific and editor/IDE specific implementations.  This paper takes the Kanon live programming environment as a concrete example and discusses how we can design the framework to accommodate the features of Kanon.  Although the framework design is still underway, the paper presents a sketch of the framework APIs for separating language-specific functions and clarifies the requirements to LSP.}
+  abstract = {While applications of live programming are expanding to more practical and professional domains, most live programming environments (LPEs) are still developed for a single target language with an original code editor.  We propose an implementation framework for developing LPEs so that we can minimize efforts on implementing an LPE for a different target language and an existing code editor/IDE.  Our idea is to use a meta-JIT language implementation framework (e.g., Graal/Truffle and RPython) and LSP to separate core live programming implementations from language-specific and editor/IDE specific implementations.  This paper takes the Kanon live programming environment as a concrete example and discusses how we can design the framework to accommodate the features of Kanon.  Although the framework design is still underway, the paper presents a sketch of the framework APIs for separating language-specific functions and clarifies the requirements to LSP.},
+  annote = {refereed}
 }
 </pre>
 
@@ -108,7 +113,8 @@
   note = {\textbf{Refereed}. 3 pages},
   keywords = {language implementation frameworks, tracing JIT compilation, RPython},
   location = {Genova, Italy},
-  series = {Programming 2019}
+  series = {Programming 2019},
+  annote = {refereed}
 }
 </pre>
 
@@ -129,12 +135,13 @@
   pages = {1-3},
   note = {\textbf{Refereed}. \textbf{Awarded [*]}. 3 pages},
   location = {Genova, Italy},
-  series = {Programming 2019}
+  series = {Programming 2019},
+  annote = {refereed}
 }
 </pre>
 
 <a name="izawa2019jssst"></a><pre>
-@inbook{<a href="index.html#izawa2019jssst">izawa2019jssst</a>,
+@inproceedings{<a href="index.html#izawa2019jssst">izawa2019jssst</a>,
   organization = {{J}apan Society for Software Science and Technology ({JSSST})},
   location = {Shibaura Institute of Technology, Tokyo, Japan},
   editor = {Kei Ito},
@@ -149,7 +156,8 @@
   keywords = {PyPy, BacCaml, MinCaml, RPython},
   url = {<a href="http://jssst.or.jp/files/user/taikai/2019/proceedings.html">http://jssst.or.jp/files/user/taikai/2019/proceedings.html</a>},
   note = {Nonrefereed},
-  abstract = {Meta-interpreter-based language implementation frameworks, such as RPython and Truffe/Graal, are convenient tool for implementing state-of-the-art virtual machines. Those frameworks are classified into trace-based and method- (or ast-) based strategies. RPython uses a trace-based policy to compile straight execution paths, while Truffe/Graal leverages method invocation to compile entire method bodies. Each approach has its own advantages and disadvantages. The trace-based strategy is good at compiling pro- grams with many branching possibilities and able to reduce the size of compiled code, but it is weak at programs with varying control-flow. The method-based strategy is robust with the latter type of programs but it needs thorough method-inlining management to achieve excellent performance. To take advantage of both strategies, we propose a meta-hybrid compilation technique to integrate trace- and method-based compilations, as well as a proof-of-concept implementation called BacCaml. To achieve this goal, we develop a stack hybridization mechanism which makes it possible to coordinate trace- and method-based meta JIT compilation. In the implementation, we extend RPython's architecture and introduced a special syntax for realizing this system in a single interpreter definition.}
+  abstract = {Meta-interpreter-based language implementation frameworks, such as RPython and Truffe/Graal, are convenient tool for implementing state-of-the-art virtual machines. Those frameworks are classified into trace-based and method- (or ast-) based strategies. RPython uses a trace-based policy to compile straight execution paths, while Truffe/Graal leverages method invocation to compile entire method bodies. Each approach has its own advantages and disadvantages. The trace-based strategy is good at compiling pro- grams with many branching possibilities and able to reduce the size of compiled code, but it is weak at programs with varying control-flow. The method-based strategy is robust with the latter type of programs but it needs thorough method-inlining management to achieve excellent performance. To take advantage of both strategies, we propose a meta-hybrid compilation technique to integrate trace- and method-based compilations, as well as a proof-of-concept implementation called BacCaml. To achieve this goal, we develop a stack hybridization mechanism which makes it possible to coordinate trace- and method-based meta JIT compilation. In the implementation, we extend RPython's architecture and introduced a special syntax for realizing this system in a single interpreter definition.},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -163,7 +171,8 @@
   month = nov,
   date = {2021-11-01},
   year = 2021,
-  url = {https://sigpro.ipsj.or.jp/pro2021-3/program/}
+  url = {https://sigpro.ipsj.or.jp/pro2021-3/program/},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -177,7 +186,8 @@
   month = nov,
   year = 2021,
   date = {2021-11-01},
-  url = {https://sigpro.ipsj.or.jp/pro2021-3/program/}
+  url = {https://sigpro.ipsj.or.jp/pro2021-3/program/},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -193,7 +203,8 @@
   archiveprefix = {arXiv},
   eprint = {2106.12496v4},
   note = {\textbf{Refereed}},
-  url = {https://conf.researchr.org/track/ecoop-issta-2021/ecoop-issta-2021-icooolps}
+  url = {https://conf.researchr.org/track/ecoop-issta-2021/ecoop-issta-2021-icooolps},
+  annote = {refereed}
 }
 </pre>
 
@@ -207,7 +218,8 @@
   month = jul,
   date = {2021-07-21},
   year = 2021,
-  url = {https://sigpro.ipsj.or.jp/pro2021-2/program/}
+  url = {https://sigpro.ipsj.or.jp/pro2021-2/program/},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -219,7 +231,8 @@
   booktitle = {The 23nd JSSST Workshop on Programming and Programming Languages},
   year = 2021,
   note = {Reproduction of the DLS'20 talk at JSSST PPL},
-  url = {https://jssst-ppl.org/workshop/2021/}
+  url = {https://jssst-ppl.org/workshop/2021/},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -230,7 +243,8 @@
   howpublished = {The 23nd JSSST Workshop on Programming and Programming Languages},
   url = {https://easychair.org/smart-program/PPL2021/},
   note = {Poster Presentation},
-  year = {2021}
+  year = {2021},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -241,7 +255,8 @@
   howpublished = {The 23nd JSSST Workshop on Programming and Programming Languages},
   url = {https://easychair.org/smart-program/PPL2021/},
   note = {Poster Presentation},
-  year = {2021}
+  year = {2021},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -252,7 +267,8 @@
   howpublished = {The 37th JSSST Anual Conference. Japan Society for Software Science and Technology},
   year = 2020,
   note = {Poster Presentation},
-  url = {https://jssst2020.wordpress.com/program/}
+  url = {https://jssst2020.wordpress.com/program/},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -263,7 +279,8 @@
   howpublished = {The 22nd JSSST Workshop on Programming and Programming Languages},
   year = 2020,
   note = {Poster Presentation},
-  url = {https://easychair.org/smart-program/PPL2020/}
+  url = {https://easychair.org/smart-program/PPL2020/},
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -273,7 +290,8 @@
   title = {Meta-hybrid JIT Compilation Approach for the Path-divergence Problem},
   howpublished = {The Kumiki 6.0 Meeting},
   year = 2019,
-  month = dec
+  month = dec,
+  annote = {nonrefereed}
 }
 </pre>
 
@@ -284,7 +302,8 @@
   howpublished = {The 20nd JSSST Workshop on Programming and Programming Languages},
   year = 2018,
   note = {Poster Presentation},
-  url = {https://jssst-ppl.org/workshop/2018/program.html}
+  url = {https://jssst-ppl.org/workshop/2018/program.html},
+  annote = {nonrefereed}
 }
 </pre>
 
