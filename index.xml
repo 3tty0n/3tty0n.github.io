@@ -5,41 +5,14 @@
     <link>https://www.yuiza.org/</link>
     <description>Recent content on Yusuke IZAWA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://www.yuiza.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://www.yuiza.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.yuiza.org/pres/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yuiza.org/pres/</guid>
-      <description>&lt;h1 id=&#34;presentations&#34;&gt;Presentations&lt;/h1&gt;
-&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/cohbee8ebhjmkmu/main.pdf?dl=0&#34;&gt;PEPM&#39;22&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;2021&#34;&gt;2021&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/erpwp0fyisv86vq/main.pdf?dl=0&#34;&gt;ICOOOLPS&#39;21&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xblgh6s5xzfoolu/ppl2021-poster.pdf?dl=0&#34;&gt;PPL&#39;21 (Poster)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;2020&#34;&gt;2020&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ya8asxjf30kpkfp/main.pdf?dl=0&#34;&gt;DLS&#39;20&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/j6p6bjbjh6uxohi/joint-seminar200731.pdf?dl=0&#34;&gt;Joint Seminar w/ HPI SWA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.yuiza.org/ppl2020-poster.pdf&#34;&gt;PPL&#39;20 (Poster)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9aatw3fp9lyffwu/Master%27s%20thesis%20defense.pdf?dl=0&#34;&gt;Master&amp;rsquo;s thesis defense&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;2019&#34;&gt;2019&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/nicmyj19jiakvum/morevms19-final.pdf?dl=0&#34;&gt;MoreVMs&#39;19&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/5kjd4z7d1xtdi3l/src-semi-final.pptx?dl=0&#34;&gt;Student Research Competition at Programming&#39;19 (Semi final)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/64b9vf3eqdstb42/src2019-poster.pdf?dl=0&#34;&gt;Student Research Competition at Programming&#39;19 (Poster)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Presentations Link to heading 2022 Link to heading PEPM&#39;22 2021 Link to heading ICOOOLPS&#39;21 PPL&#39;21 (Poster) 2020 Link to heading DLS&#39;20 Joint Seminar w/ HPI SWA PPL&#39;20 (Poster) Master&amp;rsquo;s thesis defense 2019 Link to heading MoreVMs&#39;19 Student Research Competition at Programming&#39;19 (Semi final) Student Research Competition at Programming&#39;19 (Poster) </description>
     </item>
     
   </channel>
